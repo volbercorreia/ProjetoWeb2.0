@@ -1,0 +1,24 @@
+/*
+
+ Desenvolvido por Volber Correia V1.0
+
+*/
+
+.conteudo {
+
+	border: 1px solid red;
+	width: 150px;
+	padding: 20px;
+	margin: 20px;
+}
+
+#noticia {
+	border: 1px solid grey;
+	width: 250px;
+	padding: 10px;
+}
+
+h2{
+	margin: 0px;
+	padding: 5px 5px 5px 0px; /* Espaçamento entre os lados exceto o esquerdo */
+}

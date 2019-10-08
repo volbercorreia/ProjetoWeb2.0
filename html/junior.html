@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Primeira Página de Junior estudando html</title>
+	<meta charset="utf-8">
+	<script type="text/javascript">
+
+		function clicar (){
+
+			alert('Cadastro enviado com sucesso');
+		}
+
+		function senha (){
+			document.getElementById('email').alert('Adcione o email');
+		}
+
+	</script>
+</head>
+<body>
+
+	<h1>Entre</h1>
+
+	<form>
+		Nome: <input type="text" name="nome"><br>
+		Email: <input type="email" name="email"><br>
+		<input type="submit" name="Entrar" value="Entrar">
+	</form>
+
+	<h1>Cadastre-se</h1>
+
+	<form method="get">
+		Nome: <input type="text" name="nome"><br>
+		Email: <input type="email" id="email" name="email" width="30" placeholder="example@email.com" maxlength="30" required=""><br>
+		Senha: <input type="password" name="senha" onmouseover="senha()">
+		<input type="submit" name="Enviar" onclick="clicar()">
+	</form>
+
+
+
+</body>
+</html>
